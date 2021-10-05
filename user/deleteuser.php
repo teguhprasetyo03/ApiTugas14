@@ -13,3 +13,5 @@ if ($sql) {
 } else {
   echo json_encode(array('message' => 'error'));
 }
+
+?>

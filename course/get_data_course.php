@@ -7,7 +7,7 @@ include_once './connect.php';
 
 if ($_GET) {
 
-  $id  = $_GET['id'];
+  $id_course  = $_GET['id_course'];
 
   $query = mysqli_query($db_connect, "Select * from tb_course ");
 
